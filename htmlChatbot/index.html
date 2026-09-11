@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ITSM Chatbot</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <header class="app-header">
+        <div>
+          <h1>ITSM Chatbot</h1>
+          <p>Talk to the ITSM assistant running on your local API.</p>
+        </div>
+        <div class="connection">
+          <label for="apiBase">API Base</label>
+          <input id="apiBase" type="text" value="http://127.0.0.1:5000" />
+        </div>
+      </header>
+
+      <section class="chat">
+        <div id="messages" class="messages" aria-live="polite"></div>
+
+        <form id="chatForm" class="composer">
+          <div class="field">
+            <label for="userId">User ID</label>
+            <input id="userId" type="number" value="1" min="1" required />
+          </div>
+          <div class="field grow">
+            <label for="message">Message</label>
+            <input id="message" type="text" placeholder="Ask a question..." required />
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+
+      <section class="data">
+        <h2>Last Response</h2>
+        <pre id="rawResponse" class="raw"></pre>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+{
+    "1": {
+        "thread_id": "fa95f3a2-5ec1-41f5-b25b-1aabbf768e14",
+        "chat_history": [
+            {
+                "role": "assistant",
+                "content": "Here is the record I found:\nIncident Number: INC00005\nShort Description: Printer not responding\nState: New\nPriority: Medium"
+            },
+            {
+                "role": "user",
+                "content": "Show open incidents"
+            },
+            {
+                "role": "assistant",
+                "content": "Found 5 records. Showing the top 3:\n- INC00002 | VPN down | State: New | Priority: High\n- INC00001 | Email not working | State: New | Priority: Medium\n- INC00003 | Laptop overheating | State: In Progress | Priority: Medium\nWould you like to know more about any particular incident?"
+            },
+            {
+                "role": "user",
+                "content": "Show SLA approaching"
+            },
+            {
+                "role": "assistant",
+                "content": "There is no resolved ticket data available for calculating average times."
+            },
+            {
+                "role": "user",
+                "content": "Show pending incidents"
+            },
+            {
+                "role": "assistant",
+                "content": "I cannot find any records for that request. It may not exist or you may not have permission to view it."
+            }
+        ],
+        "assign_state": null,
+        "assign_incident_id": null,
+        "assign_inc_number": null,
+        "assign_comment": null,
+        "assign_retries": 0,
+        "sla_comment_state": null,
+        "sla_incident_id": null,
+        "sla_inc_number": null,
+        "sla_comment_text": null,
+        "sla_retries": 0,
+        "hold_state": null,
+        "hold_incident_id": null,
+        "hold_inc_number": null,
+        "hold_reason_id": null,
+        "hold_comment_text": null,
+        "hold_retries": 0,
+        "close_state": null,
+        "close_incident_id": null,
+        "close_inc_number": null,
+        "closure_code_id": null,
+        "close_retries": 0,
+        "draft_incident": null,
+        "creation_state": null,
+        "creation_retries": 0,
+        "previous_creation_state": null
+    },
+    "4": {
+        "thread_id": "f90a66df-e412-441d-bbb5-665d1fbaab53",
+        "chat_history": [
+            {
+                "role": "assistant",
+                "content": "The incomplete incident has been discarded. How can I help you today?"
+            },
+            {
+                "role": "user",
+                "content": "Show SLA approaching"
+            },
+            {
+                "role": "assistant",
+                "content": "There is no resolved ticket data available for calculating average times. If you need any other information or assistance, please let me know."
+            },
+            {
+                "role": "user",
+                "content": "Show pending incidents"
+            },
+            {
+                "role": "assistant",
+                "content": "I cannot find any records for that request. It may not exist or you may not have permission to view it."
+            },
+            {
+                "role": "user",
+                "content": "Show my tickets"
+            },
+            {
+                "role": "assistant",
+                "content": "Found 5 records. Showing the top 3:\n- INC00002 | VPN down | State: New | Priority: High\n- INC00006 | Software crash | State: Resolved | Priority: High\n- INC00001 | Email not working | State: New | Priority: Medium\nWould you like to know more about any particular incident?"
+            }
+        ],
+        "assign_state": null,
+        "assign_incident_id": null,
+        "assign_inc_number": null,
+        "assign_comment": null,
+        "assign_retries": 0,
+        "sla_comment_state": null,
+        "sla_incident_id": null,
+        "sla_inc_number": null,
+        "sla_comment_text": null,
+        "sla_retries": 0,
+        "hold_state": null,
+        "hold_incident_id": null,
+        "hold_inc_number": null,
+        "hold_reason_id": null,
+        "hold_comment_text": null,
+        "hold_retries": 0,
+        "close_state": null,
+        "close_incident_id": null,
+        "close_inc_number": null,
+        "closure_code_id": null,
+        "close_retries": 0,
+        "draft_incident": null,
+        "creation_state": null,
+        "creation_retries": 0,
+        "previous_creation_state": null
+    }
+}

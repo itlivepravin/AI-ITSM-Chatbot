@@ -1,0 +1,10 @@
+# pip install openai python-dotenv mysql-connector-python tabulate psycopg2-binary
+
+Flask
+Flask-CORS
+openai
+python-dotenv
+mysql-connector-python
+psycopg2-binary
+tabulate
+#tkinter-qpython
